@@ -14,3 +14,19 @@ p,
 li {
     font-size: 18px;
   }
+
+.header {
+    background-image: url(https://www.dropbox.com/scl/fi/vvcs2tsi71fa3ylbxj9db/istockphoto-473946568-612x612.jpg?rlkey=mktn353cewtazjll8k8lo43hk&dl=0);
+    height: 400px;
+    background-position: center center;
+}
+
+.hell {
+    margin: 40px auto;
+    padding: 20px 30px 40px 30px;
+    background-color: #FFFFFF;
+    overflow: auto;
+    width: 75%;
+    border-radius: 4px;
+    align-self: center;
+}
