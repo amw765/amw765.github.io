@@ -14,19 +14,3 @@ p,
 li {
     font-size: 18px;
   }
-
-.header {
-    background-image: url(https://as2.ftcdn.net/v2/jpg/02/20/84/05/1000_F_220840556_EGGxfrWHnvqNCHQFCw0LheIoA7wvsS5w.jpg);
-    height: 400px;
-    background-position: center center;
-}
-
-.hell {
-    margin: 40px auto;
-    padding: 20px 30px 40px 30px;
-    background-color: #FFFFFF;
-    overflow: auto;
-    width: 75%;
-    border-radius: 4px;
-    align-self: center;
-}
