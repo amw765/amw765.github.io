@@ -16,8 +16,15 @@ li {
   }
 
 .header {
-    margin: auto;
-    width: 50%;
-    border: 3px rgb(194, 19, 104);
-    padding: 10px;
+    text-align: center;
+    border: 3px;
+    border-color: rgb(194, 19, 104);
+}
+
+.welcome {
+  text-align: center;
+}
+
+.goals {
+  text-align: left;
 }
