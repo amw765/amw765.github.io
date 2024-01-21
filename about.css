@@ -1,69 +1,120 @@
 * {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  
+  body {
+    background-color: white;
+  }
+  
+  h1 {
+    color: #f38653;
+    font-size: 55px;
+  
+  }
+  
+  h2 {
+    color: #f38653;
+    margin-top: auto;
+    font-size: 30px;
+    }
+    
+    h4 {
+    color: #f38653;
+    margin-top: auto;
+    font-size: 30px;
+    }
 
+  p, 
+  li {
+    font-size: 18px;
+  }
+
+.about h4,
+.about p {
+  margin: 10px;
 }
+
+.banner h1,
+.banner h2 {
+    margin: 10px;
+}
+  
+.banner {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/022/485/403/original/trendy-wavy-purple-background-illustration-of-checkered-wallpaper-with-optical-illusion-vector.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 40px;
+  }
+
+  .banner::before {
+    background-color: white;
+  }
+  
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .about {
+    text-align: left;
+    background-color: transparent;
+    color: #454545;
+    padding-top: 10px;
+  }
+  
+  nav {
+    background-color: #fd8cdd;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #f38653;
+    color: rgb(255, 255, 255);
+  }
+/* Photo Grid */
 
 body {
-  background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-h1 {
-  color: #d8a6f0;
-  font-size: 75px;
-
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 20px; /* Increase the gap between elements */
+    padding: 16px;
 }
 
-h2 {
-color: #fdfdfd;
-margin-top: auto;
-font-size: 45px;
+.photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 100%; /* Set a fixed width for each photo container */
+    height: 100%; /* Set a fixed height for each photo container */
 }
 
-p, 
-li {
-  font-size: 18px;
+.photo img {
+    width: 300px;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the entire container */
+    display: block;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.banner {
-  text-align: center;
-  background-image: url("https://i.pinimg.com/originals/4c/6b/1c/4c6b1cdfd95d9795b292b96baf148d01.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 50px;
+.photo:hover img {
+    transform: scale(1.1);
 }
-
-.banner::before {
-  background-color: rgba(0, 0, 0, 0.5)
-}
-
-.banner h2 {
-}
-
-.welcome {
-  text-align: center;
-}
-
-.about {
-  text-align: left;
-  background-color: transparent;
-  color: white;
-}
-
-nav {
-  background-color: #333;
-  overflow: hidden;
-}
-
-nav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-nav a:hover {
-  background-color: #d8a6f0;
-  color: black;
